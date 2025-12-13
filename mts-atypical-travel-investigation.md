@@ -1,8 +1,7 @@
 # Atypical Travel Alert Investigation
 
 ## Scenario Context
-This investigation was conducted as part of a simulated Managed Security Service Provider (MSSP) environment.
-The analyst acted as a Tier-1 SOC analyst responsible for monitoring Maple Tax Solutions (MTS), a fictional financial services client using Microsoft 365 and Microsoft Entra ID.
+This investigation was performed by me as part of a simulated Managed Security Service Provider (MSSP) environment, where I operated in a Tier-1 SOC analyst role monitoring Maple Tax Solutions (MTS), a fictional financial services client using Microsoft 365 and Microsoft Entra ID.
 
 The alert originated from Microsoft Entra ID Protection and was investigated using Microsoft Defender XDR.
 
