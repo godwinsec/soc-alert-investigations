@@ -13,7 +13,7 @@ The alert originated from Microsoft Entra ID Protection and was investigated usi
 - **Alert ID:** ade786069999ca66a5a2cdd57ca642a078cd9e81db
 - **Severity:** Medium (incident correlated as High)
 - **Detection Source:** Microsoft Entra ID Protection
-- **Analyst:** SOC-106
+- **Analyst:** Godwin Ifeanyi Uche
 - **Date:** 12 Dec 2025
 
 ---
