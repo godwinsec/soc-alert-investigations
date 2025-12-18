@@ -10,7 +10,7 @@
 
 ## Findings
 
-- **Time:** 2025-12-10 15:14:33 – 16:37:56 (Local Time)
+- **Time:** 2025-12-10 15:14:33 – 16:37:56 (UTC)
 - **Host:** DESKTOP-1
 - **User:** SOC-Administrator
 - **IOC (C2 IP):** 185.199.108.50
