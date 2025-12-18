@@ -138,6 +138,12 @@ The sender IP appears to belong to a hosting provider rather than a consumer VPN
 ### 16. If I receive this email, what would my next steps be?
 The email would be reported as phishing, quarantined, and escalated for further investigation. Sender IPs and domains would be blocked as appropriate.
 
+
+## Lessons Learned
+
+This investigation reinforced the importance of analyzing email headers prior to engaging with message content. Authentication results and infrastructure analysis provided sufficient evidence to assess risk without requiring payload interaction. OSINT correlation was effective in validating indicators and supporting decision-making at a Tier 1 SOC level.
+
+
 ## Conclusion
 
 This investigation identified a phishing email leveraging sender domain spoofing and misconfigured email authentication mechanisms. The message failed SPF validation, lacked DKIM and DMARC enforcement, and originated from infrastructure unrelated to the claimed sender domain. OSINT analysis revealed historical abuse reports associated with the sending IP address, further supporting the phishing assessment.
