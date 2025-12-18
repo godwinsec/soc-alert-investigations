@@ -101,7 +101,8 @@ One Content-Type is present: `text/html`. The message would be rendered as HTML.
 ---
 
 ### 11. What is the Message-ID for this email?
-The Message-ID has been redacted for public documentation.
+The Message-ID was present and originated from the domain `mail.yobow.cn`. The full value has been redacted for public documentation.
+
 
 ---
 
