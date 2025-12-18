@@ -125,7 +125,8 @@ No evidence of prior phishing-related activity associated with the domain `yobow
 ---
 
 ### 15. Has the sender IP been reported for spam previously?
-Reputation analysis is required to determine prior spam activity.
+Yes. The sender IP address `183.56.179.169` has been previously reported for spam and phishing-related activity. According to IP reputation sources, the IP has multiple historical abuse reports, primarily associated with email spam and phishing.
+
 
 ---
 
