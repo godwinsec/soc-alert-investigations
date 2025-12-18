@@ -2,6 +2,10 @@
 
 ## A Malicious PowerShell Cmdlet Invocation
 
+![Process Tree – Malicious PowerShell Execution](screenshots_Malicious_ps/ps1.png)
+![Process Tree – Malicious PowerShell Execution](screenshots_Malicious_ps/ps2.png)
+![Process Tree – Malicious PowerShell Execution](screenshots_Malicious_ps/ps3.png)
+
 ---
 
 ## Findings
