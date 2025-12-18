@@ -89,7 +89,8 @@ Attention Dear Beneficiary
 ---
 
 ### 9. If the email failed to deliver, who would receive the error message?
-Non-delivery reports would be sent to the address specified in the Return-Path header.
+Non-delivery reports would be sent to the address specified in the Return-Path header. Return-Path: p.chambers@sasktel.net
+
 
 ---
 
