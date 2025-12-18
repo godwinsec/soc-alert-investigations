@@ -74,7 +74,7 @@ Wed, 6 Dec 2023 05:00:12 -0800
 
 ### 6. What is the email address of the sender and when was the domain created?
 The sender email address is `p.chambers@[redacted].net`. The domain `sasktel.net` was created on 5 April 2000, according to WHOIS records.
-![whois – domainll evidence](screenshots_Malicious_ps/whois.png)
+
 
 ---
 
