@@ -113,7 +113,8 @@ The Message-ID was present and originated from the domain `mail.yobow.cn`. The f
 ---
 
 ### 13. When was the root domain of the mail server created and which country is it located in?
-The root domain is `yobow.cn`. Domain age and country require OSINT analysis.
+The root domain of the sending mail server is `yobow.cn`. According to WHOIS records, the domain was created on 18 July 2014 and is registered in China.
+
 
 ---
 
