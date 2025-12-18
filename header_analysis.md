@@ -119,7 +119,8 @@ The root domain of the sending mail server is `yobow.cn`. According to WHOIS rec
 ---
 
 ### 14. Has the root domain been involved in any other phishing-related activity?
-Additional OSINT analysis is required to determine prior phishing activity.
+No evidence of prior phishing-related activity associated with the domain `yobow.cn` was identified based on available OSINT sources at the date of analysis being 18th December 2025.
+
 
 ---
 
