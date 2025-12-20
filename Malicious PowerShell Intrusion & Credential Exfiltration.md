@@ -2,11 +2,15 @@
 
 ## A Malicious PowerShell Cmdlet Invocation
 
+![Process Tree – Malicious PowerShell Execution](screenshots_Malicious_ps/ps1.png)
+![Process Tree – Malicious PowerShell Execution](screenshots_Malicious_ps/ps2.png)
+![Process Tree – Malicious PowerShell Execution](screenshots_Malicious_ps/ps3.png)
+
 ---
 
 ## Findings
 
-- **Time:** 2025-12-10 15:14:33 – 16:37:56 (Local Time)
+- **Time:** 2025-12-10 15:14:33 – 16:37:56 (UTC)
 - **Host:** DESKTOP-1
 - **User:** SOC-Administrator
 - **IOC (C2 IP):** 185.199.108.50
