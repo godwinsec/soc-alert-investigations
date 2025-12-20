@@ -35,6 +35,7 @@ Content-Transfer-Encoding: 7bit
 Message-ID: <redacted>
 ```
 
+
 ## Lab Questions and Answers
 
 ### 1. What is the status of SPF, what does it mean, and why did it occur?
@@ -114,6 +115,7 @@ The Message-ID was present and originated from the domain `mail.yobow.cn`. The f
 
 ### 13. When was the root domain of the mail server created and which country is it located in?
 The root domain of the sending mail server is `yobow.cn`. According to WHOIS records, the domain was created on 18 July 2014 and is registered in China.
+![header_analysis_1](email_analysis_screenshots/em1.png)
 
 
 ---
@@ -127,6 +129,8 @@ No evidence of prior phishing-related activity associated with the domain `yobow
 ### 15. Has the sender IP been reported for spam previously?
 Yes. The sender IP address `183.56.179.169` has been previously reported for spam and phishing-related activity. According to IP reputation sources, the IP has multiple historical abuse reports, primarily associated with email spam and phishing.
 
+![header_analysis_2](email_analysis_screenshots/em2.png)
+![header_analysis_3](email_analysis_screenshots/em3.png)
 
 ---
 
