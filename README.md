@@ -24,7 +24,7 @@ Each case follows a structured SOC workflow:
 
 The scenarios emulate **multi-client MSSP operations**, requiring disciplined tool usage, adherence to process, and appropriate escalation judgment.
 
-Investigations primarily cover **identity-based threats**, including atypical travel, unfamiliar sign-in properties, and potential credential misuse, with emphasis on distinguishing benign activity from malicious behavior using **business context** and **telemetry validation**.
+Investigations primarily cover **identity-based threats**, including atypical travel, unfamiliar sign-in properties, potential credential misuse and so on, with emphasis on distinguishing benign activity from malicious behavior using **business context** and **telemetry validation**.
 
 ---
 
