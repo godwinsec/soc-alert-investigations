@@ -30,6 +30,7 @@ Investigations primarily cover **identity-based threats**, including atypical tr
 
 ## Portfolio Purpose
 
-All reports include **documented analytical reasoning**, investigation outcomes, and recommended next steps aligned with **Tier-1 SOC responsibilities**.
+Each report includes documented analytical reasoning, investigation results, and recommended next steps based on Tier-1 SOC workflows.
 
-This portfolio is intended to demonstrate **independent practical SOC skills**, analytical thinking, and **professional-quality incident documentation** suitable for **SOC internship and entry-level analyst roles**.
+This repository serves as a record of my hands-on SOC investigations and how I approach alert triage, analysis, and incident documentation during training.
+
