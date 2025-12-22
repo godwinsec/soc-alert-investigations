@@ -95,6 +95,8 @@ Reviewed core identity and tracking fields:
 **Answer:**  
 `2013-07-10`
 
+- ![header_analysis_1](email_analysis_screenshots/em9.png)
+  
 ---
 
 ### 6) If the email were to fail to deliver, what email would receive the failure notice?
