@@ -26,7 +26,7 @@ This analysis was performed on the raw `.eml` content (opened in a text editor).
   - `Received-SPF:`
 - Observed SPF results tied to the sender domain:
   - `smtp.mailfrom=comunidadeduar.com.ar`
-  ![SPF authentication result showing pass](email_analysis_screenshots/em4.png)
+![header_analysis_1](email_analysis_screenshots/em4.png)
 
 ### 3) Sender/Recipient Metadata
 Reviewed core identity and tracking fields:
