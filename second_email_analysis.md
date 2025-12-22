@@ -139,6 +139,28 @@ script.google[.]com
 
 ---
 
+### Mismatched Display vs Actual Destination
+
+In the HTML body, the email contains a hyperlink that visually appears to reference a legitimate and well-known domain:
+![header_analysis_1](email_analysis_screenshots/em8.png)
+At first glance, a user may believe they are interacting with a trusted domain such as facebook.com, especially since it is placed near branding elements and styled to look legitimate. However, the actual destination (href) points to a completely different domain:hxxps://script[.]google[.]com/macros/s/<script-id>/exec
+
+This endpoint is commonly used to execute Google Apps Scripts, which attackers frequently abuse for phishing campaigns because:
+
+- The domain (script[.]google[.]com) is trusted and often allowed through security controls
+
+- Scripts can act as redirectors or credential-harvesting pages
+
+- Content can be quickly modified or taken down, limiting detection windows
+
+The presence of /exec strongly suggests the link is designed to run a script rather than display a static page. In phishing scenarios, this often leads to:
+
+- Fake login pages
+
+- Redirects to secondary malicious domains
+
+- Collection of submitted credentials or personal data
+
 ## Recap of Findings
 
 Based on my analysis of the email headers, body content, and supporting OSINT:
@@ -154,29 +176,16 @@ Based on my analysis of the email headers, body content, and supporting OSINT:
 
 One of the most deceptive elements of this phishing email is how hyperlinks are intentionally manipulated to mislead the user.
 
-### Mismatched Display vs Actual Destination
-
-In the HTML body, the email contains a hyperlink that visually appears to reference a legitimate and well-known domain:
-![header_analysis_1](email_analysis_screenshots/em8.png)
-
-```html
-<a title="https://facebook.com/" href="https://script.google.com/macros/s/.../exec">
-
 
 ---
 
-## Extra Notes / Next Steps (Tier 1 SOC Perspective)
+## Conclusion
 
-As a Tier 1 SOC analyst, I would classify this email as **phishing** and recommend the following actions:
+This investigation involved analyzing a suspicious email using static header analysis and targeted OSINT without opening the message in an email client. By reviewing key email headers, authentication results, and the embedded HTML content, I was able to determine that the email was a phishing attempt.
 
-- Remove and quarantine the email from affected mailboxes.
-- Perform an organization-wide search to identify other users who received the same email.
-- Review SIEM logs for email transaction and header data to determine delivery scope. If email logs are not ingested into the SIEM, perform the search at the email gateway level using the subject line **"We locked your account for security reason"** for September 2023.
-- Search for emails sent to or from the address  
-  `nuthostsrl.SaintU74045Walker@comunidadeduar[.]com.ar`, as it was used as the **From** address.
-- Search for additional emails associated with the domain  
-  `@comunidadeduar.com[.]ar`, which has been linked to phishing activity.
-- Review network and proxy logs for outbound connections to  
-  `script.google[.]com` containing `"exec"` during September 2023 to identify potential user interaction.
-- If any users are found to have clicked the link, initiate incident response actions such as credential resets and session revocation (e.g., Entra AD), and provide user awareness follow-up as required.
+The sender made use of legitimate infrastructure and a trusted domain (`script.google[.]com`) to bypass basic security controls, while impersonating a well-known brand to create urgency and pressure the recipient into taking action. Several indicators, including a sender and domain mismatch, deceptive link behavior, and potential credential-harvesting activity, support this conclusion.
+
+From a Tier 1 SOC perspective, this email would require containment, verification of user interaction, and escalation if any user engagement is identified. This investigation shows how header analysis combined with OSINT can be effective in identifying phishing attempts, even when authentication checks such as SPF pass.
+
+Overall, this lab reinforced the importance of looking beyond basic email authentication results, understanding common attacker techniques, and clearly documenting findings to support operational response.
 
